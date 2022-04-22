@@ -1,0 +1,165 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+     /*Nav Bar*/
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0%;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+    background-color: #111;
+}
+nav#nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+section{
+    height: 90vh;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #111;
+}
+#landing {
+    background-image: url(./images/pexels-andre-moura-10211352.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#landing h1, #landing h2 {
+font-size: 3rem;
+text-shadow: 3px 3px 3px #000;
+}
+    /*About section*/
+.about-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.about-title p {
+    margin-bottom: 0;
+}
+.about-content {
+    --bs-gutter-x: 1.5rem;
+    display: flex;
+}
+#about-row h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #555555;
+    display: flex;
+    justify-content: center;
+}
+#about-row p {
+    font-style: italic;
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+.lists {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 40px;
+    gap: 200px;
+}
+.lists ul {
+    list-style-type: none;
+}
+
+#about-row img {
+    width: 288px;
+    height: 288px;
+}
+
+}
+ /*Start of Skills Secction*/
+#skills {
+    padding: 5% 10%;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#sklills h2 {
+    margin-bottom: 30px;
+    border-bottom: 3px solid white;
+    width: fit-content;
+    margin-inline: auto;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    box-shadow: white;
+
+}
+>.card {
+    box-shadow: rgb(255, 255, 255, 0.7);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+.card >i {
+   font-size: 60px;
+}
+/*Sart of Contacts Setion*/
+#contacts {
+   gap: 200px;
+}
+.contact-location img {
+    width: 90%;
+    height: 296px;
+    margin-left: 50px;
+}
+
+ 
+/*Media Queries*/
+@media screen and (max-width: 800px)
+.container im{
+    
+}
+    
+}

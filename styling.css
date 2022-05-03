@@ -6,46 +6,14 @@ scroll-behavior: smooth;
 }
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
-
+    color: #444444
 }
-     /*Nav Bar*/
-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0%;
-    transition: all 0.5s;
-    z-index: 997;
-    padding: 20px 0;
-    background-color: #111;
+img {
+    260px
 }
-nav#nav-bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-section{
-    height: 90vh;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
-}
-
-li a:hover {
-  background-color: #111;
+section {
+    padding: 3%;
+    height: auto;
 }
 #landing {
     background-image: url(./images/pexels-andre-moura-10211352.jpg);
@@ -110,6 +78,9 @@ text-shadow: 3px 3px 3px #000;
     width: 288px;
     height: 288px;
 }
+#about-row {
+    padding: 2%;
+}
 
 }
  /*Start of Skills Secction*/
@@ -145,6 +116,9 @@ text-shadow: 3px 3px 3px #000;
 .card >i {
    font-size: 60px;
 }
+/*Resume Section*/
+
+/*End of Resume Secction*/
 /*Sart of Contacts Setion*/
 #contacts {
    gap: 200px;
@@ -165,10 +139,52 @@ text-shadow: 3px 3px 3px #000;
     margin-left: 40px;
 }
 .column-items {
-    width: 50%;
+    width: 60%;
     background: #fff;
 }
- 
+.heading {
+    display: flex;
+    gap: 15px;
+}
+.icon {
+    font-size: 30px;
+
+}
+/*End of Contact*/
+
+/*Testimonials */
+#testimonials{
+    background-image: url(https://picsum.photos/200/300);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/*End of Testimonials*/
+/*Projects*/
+.projects-container {
+    padding: 5%;
+}
+.projects-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.projects-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.projects-items img {
+  min-width: 200px;
+  flex-grow: 1;
+  object-fit: cover;
+  max-height: 400px;
+}
+ /*End of Projects*/
 /*Media Queries*/
 @media screen and (max-width: 800px)
 .container im{
